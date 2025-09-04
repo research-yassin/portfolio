@@ -1,17 +1,238 @@
 [
   {
-    "course": "Steel Structures",
+    "course": "Strength of Materials",
+    "codes": ["15FCVE223", "CIVL210"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "notes": "For Civil, Mechanical and Petroleum engineering students"
+  },
+  {
+    "course": "Engineering Materials",
+    "codes": ["15FCVE212"],
+    "institution": "Australian University (AU)",
     "level": "Undergraduate",
     "role": "Instructor"
   },
   {
-    "course": "Strength of Materials",
+    "course": "Solid Mechanics",
+    "codes": ["21SCVE320", "21MEC321"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "notes": "For Civil and Mechanical engineering students"
+  },
+  {
+    "course": "Civil Construction",
+    "codes": ["21SCVE311"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Concrete Design",
+    "codes": ["21SCVE411"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Steel Structures",
+    "codes": ["21SCVE422"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Analysis of Structures",
+    "codes": ["21SCVE322"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Engineering Skills (PBL)",
+    "codes": ["21SCVE310"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "notes": "For Civil and Mechanical students"
+  },
+  {
+    "course": "Engineering Design & Management Planning (PBL)",
+    "codes": ["16SMCE321", "21SCVE323", "21SCVE324"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "notes": "For Civil and Mechanical students"
+  },
+  {
+    "course": "Engineering Design Implementation (PBL)",
+    "codes": ["21SCVE413", "21SCVE414"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Internship Student Supervision",
+    "codes": ["21SCVE333"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor",
+    "notes": "For all School of Engineering disciplines"
+  },
+  {
+    "course": "Water & Environmental Design (PBL)",
+    "codes": ["16SCVE421", "21SCVE423", "21SCVE424"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Technology Project Planning (PBL)",
+    "codes": ["21SCVE410"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Technology Project Implementation (PBL)",
+    "codes": ["21SCVE420"],
+    "institution": "Australian University (AU)",
     "level": "Undergraduate",
     "role": "Instructor"
   },
   {
     "course": "Statics",
+    "codes": ["15FCVE210", "CIVL100"],
+    "institution": "Australian University (AU)",
     "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Steel Structures",
+    "codes": ["15FCVE222"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Concrete Structures",
+    "codes": ["15FCVE221"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Engineering Project (PBL)",
+    "codes": ["15FCVE224"],
+    "institution": "Australian University (AU)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+
+  {
+    "course": "Civil Project Design",
+    "institution": "Concordia University (Adjunct Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Building Project Design",
+    "institution": "Concordia University (Adjunct Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+
+  {
+    "course": "Structural Analysis II",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Design of Reinforced Concrete Structures",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Applied Ordinary Differential Equations",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Building Engineering Design Project",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Civil Engineering Design Project",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Introduction to Structural Dynamics",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Mechanical Analysis",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Mechanics of Materials",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+  {
+    "course": "Numerical Methods in Engineering",
+    "institution": "Concordia University (Auxiliary Teaching Faculty)",
+    "level": "Undergraduate",
+    "role": "Instructor"
+  },
+
+  {
+    "course": "Oracle Programming PL/SQL",
+    "institution": "Professional Training & Development",
+    "level": "Professional",
+    "role": "Instructor"
+  },
+  {
+    "course": "Oracle SQL",
+    "institution": "Professional Training & Development",
+    "level": "Professional",
+    "role": "Instructor"
+  },
+  {
+    "course": "VBA for Excel",
+    "institution": "Professional Training & Development",
+    "level": "Professional",
+    "role": "Instructor"
+  },
+  {
+    "course": "Java Programming",
+    "institution": "Professional Training & Development",
+    "level": "Professional",
+    "role": "Instructor"
+  },
+  {
+    "course": "MS Project",
+    "institution": "Professional Training & Development",
+    "level": "Professional",
+    "role": "Instructor"
+  },
+  {
+    "course": "AutoCAD",
+    "institution": "Professional Training & Development",
+    "level": "Professional",
     "role": "Instructor"
   }
 ]
