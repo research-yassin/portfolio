@@ -3,8 +3,10 @@
   "title": "Associate Professor of Civil & Structural Engineering",
   "affiliation": "Australian University (AU), Kuwait",
   "email": "m.yassin@au.edu.kw",
-  "phone": "+1 514 651 8576",
-  "location": "Kuwait",
+  "phone1": "+965 6577 1128",
+  "phone2": "+1 514 651 8576",
+  "location1": "Kuwait",
+  "location2": "Canada",
   "bio": "Civil/structural engineer with 20 years in academia and industry. Research interests: SHM (FBGs, AI), sustainable materials (PTF/NFRC), and seismic/bridge engineering.",
   "social": [
     {
