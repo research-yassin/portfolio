@@ -1,54 +1,88 @@
 import { loadJSON, html } from '../app.js';
 export const title = 'Projects';
+
 export async function view(){
-  const data = await loadJSON('./data/projects.json');
-  const tabs = [
-    {key:'research', label:'Research Projects'},
-    {key:'industrial', label:'Industrial Projects'},
-    {key:'graduate', label:'Graduate Projects'}
-  ];
-  const tabBtns = tabs.map(t => `<button class="chip" data-key="${t.key}">${t.label}</button>`).join('');
   return html`
   <section class="section container">
     <h2>Projects</h2>
-    <div class="filterbar" id="tabs">${tabBtns}</div>
-    <div class="searchbar"><input id="q" placeholder="Search within the selected category..." /></div>
-    <div id="grid" class="card-grid"></div>
+    <div class="searchbar">
+      <input id="q" placeholder="Search by title, sponsor/client, tag..." />
+      <select id="category">
+        <option value="">All categories</option>
+        <option value="research">Research</option>
+        <option value="industrial">Industrial</option>
+        <option value="graduate">Graduate</option>
+      </select>
+      <button id="export" class="btn">Export CSV</button>
+    </div>
+    <table class="table" id="tbl">
+      <thead>
+        <tr><th>Title</th><th>Sponsor/Client</th><th>Period</th><th>Location</th><th>Role/Amount</th><th>Tags</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </section>`;
 }
+
 export function afterRender(){
   const q = document.getElementById('q');
-  const grid = document.getElementById('grid');
-  const tabsEl = document.getElementById('tabs');
-  let allData = {research:[], industrial:[], graduate:[]};
-  let active = 'research';
-  fetch('./data/projects.json').then(r=>r.json()).then(json => { allData = json; render(); });
-  tabsEl.addEventListener('click', (e) => {
-    const btn = e.target.closest('button[data-key]'); if(!btn) return;
-    active = btn.dataset.key;
-    [...tabsEl.querySelectorAll('button')].forEach(b => b.classList.remove('primary'));
-    btn.classList.add('primary');
+  const cat = document.getElementById('category');
+  const tbody = document.querySelector('#tbl tbody');
+  const exportBtn = document.getElementById('export');
+  let flat = [];
+
+  fetch('./data/projects.json').then(r => r.json()).then(json => {
+    flat = ['research','industrial','graduate']
+      .flatMap(k => (json[k] || []).map(p => ({ ...p, __category: k })));
     render();
   });
-  function card(p){
-    const sponsor = p.sponsor || p.client || '';
-    const meta = [sponsor, p.period || ''].filter(Boolean).join(' · ');
-    const extra = [p.location, p.role, p.amount].filter(Boolean).join(' · ');
-    const tags = (p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('');
-    return `<article class="card">
-      <h3>${p.title||'Untitled'}</h3>
-      ${p.summary?`<p>${p.summary}</p>`:''}
-      ${meta?`<p class="small">${meta}</p>`:''}
-      ${extra?`<p class="small">${extra}</p>`:''}
-      <div class="tags">${tags}</div>
-    </article>`;
+
+  function sponsorOrClient(p){ return p.sponsor || p.client || ''; }
+  function roleAmount(p){
+    const parts = [p.role, p.amount].filter(Boolean);
+    return parts.join(' · ');
   }
+
   function render(){
-    const list = allData[active] || [];
-    const needle = (q.value||'').toLowerCase();
-    const filtered = list.filter(p => JSON.stringify(p).toLowerCase().includes(needle));
-    grid.innerHTML = filtered.map(card).join('') || `<p class="small">No entries yet.</p>`;
+    const needle = (q.value || '').toLowerCase();
+    const sel = cat.value;
+    const list = flat
+      .filter(p => !sel || p.__category === sel)
+      .filter(p => JSON.stringify(p).toLowerCase().includes(needle));
+
+    const rows = list.map(p => `<tr>
+      <td>${p.title || ''}</td>
+      <td>${sponsorOrClient(p)}</td>
+      <td>${p.period || ''}</td>
+      <td>${p.location || ''}</td>
+      <td>${roleAmount(p)}</td>
+      <td>${(p.tags || []).join(', ')}</td>
+    </tr>`).join('');
+
+    tbody.innerHTML = rows || '<tr><td colspan="6" class="small">No matches</td></tr>';
   }
+
   q.addEventListener('input', render);
-  const firstBtn = tabsEl.querySelector('button[data-key="research"]'); firstBtn && firstBtn.classList.add('primary');
+  cat.addEventListener('change', render);
+
+  exportBtn.addEventListener('click', () => {
+    const header = ['Title','Category','Sponsor/Client','Period','Location','Role','Amount','Tags'];
+    const lines = [header.join(',')].concat(
+      flat.map(p => [
+        `"${(p.title||'').replace(/"/g,'""')}"`,
+        p.__category,
+        `"${(sponsorOrClient(p)||'').replace(/"/g,'""')}"`,
+        `"${(p.period||'').replace(/"/g,'""')}"`,
+        `"${(p.location||'').replace(/"/g,'""')}"`,
+        `"${(p.role||'').replace(/"/g,'""')}"`,
+        `"${(p.amount||'').replace(/"/g,'""')}"`,
+        `"${(p.tags||[]).join('; ').replace(/"/g,'""')}"`,
+      ].join(','))
+    );
+    const blob = new Blob([lines.join('\n')], {type:'text/csv'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'projects.csv';
+    a.click();
+  });
 }
