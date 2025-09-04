@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Deep Learning\u2013Enhanced Automated Visual Inspection for SHM",
+    "sponsor": "KFAS (CN24\u201115EV\u20112305)",
+    "period": "2024\u20132026",
+    "summary": "Develop AI pipeline for crack detection/quantification on civil structures; integrate with inspection workflows.",
+    "tags": [
+      "SHM",
+      "Computer Vision",
+      "Deep Learning"
+    ]
+  },
+  {
+    "title": "AI\u2011Based Concrete Elasticity via DIC",
+    "sponsor": "AU Internal Grant (IRC\u20112023/2024\u2011SRC\u2011PR05)",
+    "period": "2023\u20132025",
+    "summary": "Estimate elastic properties from DIC on cylinders/beams using physics\u2011informed ML.",
+    "tags": [
+      "Concrete",
+      "DIC",
+      "ML"
+    ]
+  },
+  {
+    "title": "PTF\u2011Concrete: Short Palm Frond Fibers in Concrete",
+    "sponsor": "AU",
+    "period": "2022\u2013present",
+    "summary": "Investigate sustainable natural fibers (PTF) for improved concrete properties and durability.",
+    "tags": [
+      "Sustainability",
+      "Natural Fibers",
+      "Concrete"
+    ]
+  },
+  {
+    "title": "FBG\u2011Based Strain Sensing for Bridges",
+    "sponsor": "AU / ISU collaboration",
+    "period": "2020\u2013present",
+    "summary": "Compare FBG strain measurements vs. strain gauges under static/dynamic loads for bridge monitoring.",
+    "tags": [
+      "FBG",
+      "Sensors",
+      "Bridges"
+    ]
+  },
+  {
+    "title": "Dynamic p\u2013y Curves for SSI",
+    "sponsor": "Research",
+    "period": "Ongoing",
+    "summary": "Develop dynamic p\u2013y formulations for piles under seismic loading; validate vs. literature and tests.",
+    "tags": [
+      "SSI",
+      "Geotechnical",
+      "Seismic"
+    ]
+  }
+]
