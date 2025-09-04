@@ -21,12 +21,30 @@ export async function view(){
       </div>
     </div>
     <div>
-      <div class="card">
-        <h3>Contact</h3>
-        <p class="small"><a class="inline" href="mailto:${profile.email}">${profile.email}</a></p>
-        <p class="small"><a class="inline" href="call:${profile.phone1}">${profile.phone1}</a> ${profile.location1}: </p>
-        <p class="small"><a class="inline" href="mailto:${profile.phone2}">${profile.phone2}</a> · ${profile.location2}</p>
-      </div>
-    </div>
+     <div class="card">
+  <h3>Contact</h3>
+
+  <!-- Email -->
+  <p class="small">
+    <span aria-hidden="true">✉️</span>
+    <a class="inline" href="mailto:${profile.email}">${profile.email}</a>
+  </p>
+
+  <!-- Location 1 · Phone 1 -->
+  <p class="small">
+    <span aria-hidden="true">📍</span> ${profile.location1}
+    &nbsp;·&nbsp;
+    <span aria-hidden="true">📱</span>
+    <a class="inline" href="tel:${profile.phone1}">${profile.phone1}</a>
+  </p>
+
+  <!-- Location 2 · Phone 2 -->
+  <p class="small">
+    <span aria-hidden="true">📍</span> ${profile.location2}
+    &nbsp;·&nbsp;
+    <span aria-hidden="true">📱</span>
+    <a class="inline" href="tel:${profile.phone2}">${profile.phone2}</a>
+  </p>
+</div>
   </section>`;
 }
