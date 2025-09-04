@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const navList = document.getElementById('navList');
   navToggle?.addEventListener('click', () => navList.classList.toggle('open'));
   const darkToggle = document.getElementById('darkToggle');
-  const theme = localStorage.getItem('mh-theme') || 'dark';
+  const theme = localStorage.getItem('mh-theme') || 'light';
   if(theme === 'light') document.body.classList.add('light');
   darkToggle?.addEventListener('click', () => {
     document.body.classList.toggle('light');
