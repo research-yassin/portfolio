@@ -6,5 +6,133 @@
     "venue": "Scientific Reports",
     "doi": "10.1038/s41598-024-84111-x",
     "type": "Journal"
+  },
+  {
+    "authors": "Yassin, M.H.; Al Hajaj, Z.; Lakys, R.; Merouani, Z.E.; Jumah, A.",
+    "year": "2024",
+    "title": "The Influence of Palm Tree Fiber Addition on the Physical, Mechanical and Thermal Properties of High Strength Concrete",
+    "venue": "Journal of Materials in Civil Engineering (ASCE)",
+    "doi": "10.1061/JMCEE7/MTENG-19000",
+    "type": "Journal"
+  },
+  {
+    "authors": "Yassin, M.H.; Farhat, M.; Nahas, M.; Saad, A.",
+    "year": "2024",
+    "title": "Investigation of Fiber Bragg Grating Sensor Measurability in Concrete Beams under Static Load Conditions",
+    "venue": "Heliyon",
+    "doi": "10.1016/j.heliyon.2024.e40105",
+    "type": "Journal"
+  },
+  {
+    "authors": "Yassin, M.H.; Farhat, M.; Nahas, M.; Soleimanpour, R.",
+    "year": "2024",
+    "title": "Fiber Bragg Grating (FBG)-Based Sensors: A Review of Technology and Recent Applications",
+    "venue": "Discover Civil Engineering",
+    "doi": "10.1007/s44290-024-00141-4",
+    "type": "Journal"
+  },
+  {
+    "authors": "Soleimanpour, R.; Yassin, M.H.; Mehdizadeh, A.; Chronopoulos, D.",
+    "year": "2023",
+    "title": "Locating cracks in isotropic plates using nonlinear guided waves",
+    "venue": "Applied Acoustics",
+    "doi": "",
+    "type": "Journal"
+  },
+  {
+    "authors": "Lakys, R.; Saad, A.; Ahmed, T.; Yassin, M.H.",
+    "year": "2022",
+    "title": "Investigating the drivers and acceptance of sustainable materials in Kuwait: A case study of CEB",
+    "venue": "Case Studies in Construction Materials",
+    "doi": "10.1016/j.cscm.2022.e01330",
+    "type": "Journal"
+  },
+  {
+    "authors": "Saad, A.; Ahmed, T.; Yassin, M.H.; Radwan, A.; Ezzedine, A.",
+    "year": "2022",
+    "title": "Out-of-Plane Structural Performance of Compressed Earth Block Walls Subject to Quasistatic Loading",
+    "venue": "Advances in Civil Engineering Materials",
+    "doi": "10.1520/ACEM20210038",
+    "type": "Journal"
+  },
+  {
+    "authors": "Al Hajaj, Z.; Yassin, M.H.",
+    "year": "2023",
+    "title": "Flax fiber reinforced concrete for sustainable building material",
+    "venue": "20th International Conference on Sustainable Energy Technologies (SET 2023), Nottingham, UK",
+    "doi": "",
+    "type": "Conference"
+  },
+  {
+    "authors": "Al Hajaj, Z.; Yassin, M.H.",
+    "year": "2023",
+    "title": "The influence of incorporating natural fiber on the mechanical performance of natural fiber reinforced concrete",
+    "venue": "First GCC Engineering Symposium, Kuwait University, Kuwait",
+    "doi": "",
+    "type": "Conference"
+  },
+  {
+    "authors": "Lakys, R.; Yassin, M.H.; Jumaah, A.",
+    "year": "2023",
+    "title": "Sustainable Alternatives for Concrete by Adding Different Types of Natural and Industrial Waste Materials",
+    "venue": "2nd International Conference on Civil Infrastructure and Construction (CIC 2023), Qatar University, Doha, Qatar",
+    "doi": "",
+    "type": "Conference"
+  },
+  {
+    "authors": "Yassin, M.H.; Al Hajaj, Z.; Lakys, R.",
+    "year": "2022",
+    "title": "Experimental Study on the Thermal Characterization of PTF Concrete",
+    "venue": "7th International Conference on Civil, Structural and Transportation Engineering (ICCSTE), Niagara Falls, Canada",
+    "doi": "10.11159/iccste22.188",
+    "type": "Conference"
+  },
+  {
+    "authors": "Lakys, R.; Yassin, M.H.; Merouani, Z.",
+    "year": "2022",
+    "title": "Preliminary Study on the Effect of Adding Palm Tree Fronds to Concrete",
+    "venue": "7th International Conference on Civil, Structural and Transportation Engineering (ICCSTE), Niagara Falls, Canada",
+    "doi": "10.11159/iccset22.189",
+    "type": "Conference"
+  },
+  {
+    "authors": "Yassin, M.H.; Lakys, R.; Ahmed, T.; Al-Refaei, S.; Omar, B. A.-S.; Altaher, R. S.",
+    "year": "2020",
+    "title": "Optimizing the Thermal Resistance of Concrete Using The Palm Tree Fronds Fibers",
+    "venue": "International Conference on Civil Infrastructure and Construction (CIC 2020)",
+    "doi": "10.29117/cic.2020.0057",
+    "type": "Conference"
+  },
+  {
+    "authors": "Ahmed, T.; Yassin, M.H.",
+    "year": "2019",
+    "title": "Modeling the Rutting Behavior of Asphalt Mixtures Obtained by Accelerated Testing Device",
+    "venue": "Proceedings of the Gulf Conference on Sustainable Built Environment, Kuwait",
+    "doi": "",
+    "type": "Conference"
+  },
+  {
+    "authors": "Yassin, M.H.; Iqbal, F.; Bagchi, A.; Kodur, V.K.R.",
+    "year": "2008",
+    "title": "Assessment of Post-Earthquake Fire Performance of Steel-Frame Buildings",
+    "venue": "14th World Conference on Earthquake Engineering, Beijing, China",
+    "doi": "",
+    "type": "Conference"
+  },
+  {
+    "authors": "Yassin, M.H.; Bagchi, A.; Kodur, V.K.R.",
+    "year": "2009",
+    "title": "Numerical Model for Assessing the Post-Earthquake Fire Resistance of wood-stud wall",
+    "venue": "CSCE 2009 Annual General Conference, St. John's, Newfoundland and Labrador",
+    "doi": "",
+    "type": "Conference"
+  },
+  {
+    "authors": "Yassin, M.H.; Bagchi, A.; Kodur, V.K.R.",
+    "year": "2008",
+    "title": "Structural Performance of Stud Walls under Normal and Post-Earthquake Fire Exposure",
+    "venue": "ASCE/SEI Structures Congress, Vancouver, Canada",
+    "doi": "10.1061/41016(314)61",
+    "type": "Conference"
   }
 ]
