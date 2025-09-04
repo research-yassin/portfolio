@@ -4,19 +4,19 @@
   "affiliation": "Australian University (AU), Kuwait",
   "email": "m.yassin@au.edu.kw",
   "location": "Kuwait",
-  "bio": "Civil/structural engineer with 20+ years of teaching and research experience. Research interests include structural rehabilitation with CFRP/GFRP, concrete behavior under high temperature, and optical fiber sensing (FBGs) for structural health monitoring..",
+  "bio": "Civil/structural engineer with 15+ years in academia and industry. Research interests: SHM (FBGs, AI), sustainable materials (PTF/NFRC), and seismic/bridge engineering.",
   "social": [
     {
       "label": "Google Scholar",
-      "url": "https://scholar.google.com/citations?user=Nx7B4RAAAAAJ&hl=en"
+      "url": "#"
     },
     {
       "label": "ORCiD",
-      "url": "https://orcid.org/0000-0003-2888-5018"
+      "url": "#"
     },
     {
       "label": "ResearchGate",
-      "url": "https://www.researchgate.net/profile/Mohammad-Hany-Yassin"
+      "url": "#"
     },
     {
       "label": "GitHub",
@@ -24,8 +24,14 @@
     },
     {
       "label": "LinkedIn",
-      "url": "https://www.linkedin.com/in/mohammad-hany-yassin-ph-d-p-eng-52769917/"
+      "url": "#"
     }
   ],
-  "cv_url": "./assets/MHYassin_CV.pdf"
+  "cv_url": "./assets/MHYassin_CV.pdf",
+  "glance": [
+    "Research: SHM with FBGs and AI crack detection",
+    "Sustainable materials: PTF‑concrete",
+    "Teaching: Steel, Statics, Strength, Analysis",
+    "Consultation: Bridge Engineering, SSI, and Seismic Design"
+  ]
 }

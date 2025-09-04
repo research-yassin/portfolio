@@ -2,8 +2,7 @@ import { loadJSON, html } from '../app.js';
 export const title = 'CV';
 export async function view(){
   const profile = await loadJSON('./data/profile.json');
-  return html`
-  <section class="section container">
+  return html`<section class="section container">
     <h2>Curriculum Vitae</h2>
     <div class="cv">
       <p><strong>${profile.name}</strong> — ${profile.title}</p>

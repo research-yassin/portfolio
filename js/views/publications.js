@@ -7,12 +7,7 @@ export async function view(){
     <h2>Publications</h2>
     <div class="searchbar">
       <input id="q" placeholder="Search by title, venue, year, author..." />
-      <select id="type">
-        <option value="">All types</option>
-        <option>Journal</option>
-        <option>Conference</option>
-        <option>Preprint</option>
-      </select>
+      <select id="type"><option value="">All types</option><option>Journal</option><option>Conference</option><option>Preprint</option></select>
       <button id="export" class="btn">Export BibTeX</button>
     </div>
     <table class="table" id="tbl">
@@ -34,11 +29,10 @@ export function afterRender(){
     const rows = data
       .filter(p => JSON.stringify(p).toLowerCase().includes(needle))
       .filter(p => !t || (p.type||'').toLowerCase().includes(t))
-      .map(p => `
-        <tr>
+      .map(p => `<tr>
           <td>${p.authors}</td>
           <td>${p.year}</td>
-          <td><strong>${p.title}</strong>${p.doi ? ` — <a class="inline" href="https://doi.org/${p.doi}" target="_blank">doi:${p.doi}</a>` : ''}</td>
+          <td><strong>${p.title}</strong>${p.doi?` — <a class="inline" href="https://doi.org/${p.doi}" target="_blank">doi:${p.doi}</a>`:''}</td>
           <td>${p.venue}</td>
           <td>${p.type||''}</td>
         </tr>`).join('');
@@ -47,19 +41,13 @@ export function afterRender(){
   q.addEventListener('input', render);
   type.addEventListener('change', render);
   exportBtn.addEventListener('click', () => {
-    const bib = data.map((p,i) => {
-      const key = `yassin${p.year.replace(/\D/g,'') || 'xxxx'}_${i}`;
-      return `@article{${key},
+    const bib = data.map((p,i)=>`@article{yassin${(p.year||'').replace(/\D/g,'')||'xxxx'}_${i},
   title={${p.title}},
   author={${p.authors}},
   journal={${p.venue}},
-  year={${p.year}}${p.doi && f",\n  doi={{ {p.doi} }}" || ""}
-}`;
-    }).join('\n\n');
+  year={${p.year}}${p.doi?`,\n  doi={${p.doi}}`:''}
+}`).join('\n\n');
     const blob = new Blob([bib], {type:'text/plain'});
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'publications.bib';
-    a.click();
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'publications.bib'; a.click();
   });
 }

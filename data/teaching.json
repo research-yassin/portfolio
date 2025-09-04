@@ -1,6 +1,6 @@
 [
   {
-    "course": "Statics",
+    "course": "Steel Structures",
     "level": "Undergraduate",
     "role": "Instructor"
   },
@@ -10,18 +10,8 @@
     "role": "Instructor"
   },
   {
-    "course": "Steel Structures",
+    "course": "Statics",
     "level": "Undergraduate",
     "role": "Instructor"
-  },
-  {
-    "course": "Analysis of Structures",
-    "level": "Undergraduate",
-    "role": "Instructor"
-  },
-  {
-    "course": "PBL2: Health Center Building",
-    "level": "Undergraduate",
-    "role": "Coordinator"
   }
 ]

@@ -1,57 +1,184 @@
-[
-  {
-    "title": "Deep Learning\u2013Enhanced Automated Visual Inspection for SHM",
-    "sponsor": "KFAS (CN24\u201115EV\u20112305)",
-    "period": "2024\u20132026",
-    "summary": "Develop AI pipeline for crack detection/quantification on civil structures; integrate with inspection workflows.",
-    "tags": [
-      "SHM",
-      "Computer Vision",
-      "Deep Learning"
-    ]
-  },
-  {
-    "title": "AI\u2011Based Concrete Elasticity via DIC",
-    "sponsor": "AU Internal Grant (IRC\u20112023/2024\u2011SRC\u2011PR05)",
-    "period": "2023\u20132025",
-    "summary": "Estimate elastic properties from DIC on cylinders/beams using physics\u2011informed ML.",
-    "tags": [
-      "Concrete",
-      "DIC",
-      "ML"
-    ]
-  },
-  {
-    "title": "PTF\u2011Concrete: Short Palm Frond Fibers in Concrete",
-    "sponsor": "AU",
-    "period": "2022\u2013present",
-    "summary": "Investigate sustainable natural fibers (PTF) for improved concrete properties and durability.",
-    "tags": [
-      "Sustainability",
-      "Natural Fibers",
-      "Concrete"
-    ]
-  },
-  {
-    "title": "FBG\u2011Based Strain Sensing for Bridges",
-    "sponsor": "AU / ISU collaboration",
-    "period": "2020\u2013present",
-    "summary": "Compare FBG strain measurements vs. strain gauges under static/dynamic loads for bridge monitoring.",
-    "tags": [
-      "FBG",
-      "Sensors",
-      "Bridges"
-    ]
-  },
-  {
-    "title": "Dynamic p\u2013y Curves for SSI",
-    "sponsor": "Research",
-    "period": "Ongoing",
-    "summary": "Develop dynamic p\u2013y formulations for piles under seismic loading; validate vs. literature and tests.",
-    "tags": [
-      "SSI",
-      "Geotechnical",
-      "Seismic"
-    ]
-  }
-]
+{
+  "research": [
+    {
+      "title": "Deep Learning‑Enhanced Automated Visual Inspection for Improved Structural Health Monitoring",
+      "sponsor": "KFAS — Grant #CN24‑15EV‑2305",
+      "period": "2025–2027",
+      "amount": "KD 44,500 (≈ $145,000)",
+      "role": "Principal Investigator",
+      "summary": "AI‑based visual inspection integrated with SHM workflows for civil infrastructure.",
+      "tags": [
+        "Grant",
+        "KFAS",
+        "AI",
+        "SHM"
+      ]
+    },
+    {
+      "title": "Fouling Prediction & Mitigation in ZOR Preheat Exchangers",
+      "sponsor": "KFAS — Grant #CN2415EC2302",
+      "period": "2025–2026",
+      "amount": "KD 29,200 (≈ $95,000)",
+      "role": "Co‑Investigator",
+      "summary": "Empirical and AI‑assisted methods to forecast and mitigate fouling in refinery exchangers.",
+      "tags": [
+        "Grant",
+        "KFAS",
+        "AI",
+        "Thermal"
+      ]
+    },
+    {
+      "title": "AI‑Based Concrete Elasticity via DIC",
+      "sponsor": "AU & ISU — Grant #IRC‑2023/2024‑SRC‑PR05",
+      "period": "2024–2025",
+      "amount": "KD 5,000 (≈ $16,200)",
+      "role": "Principal Investigator",
+      "summary": "DIC‑driven estimation of concrete elastic properties using physics‑informed ML.",
+      "tags": [
+        "Grant",
+        "DIC",
+        "AI",
+        "Concrete"
+      ]
+    },
+    {
+      "title": "CFRP Bars for Improved Joints in NFRC Pavements",
+      "sponsor": "AU & ISU — Grant #IRC‑2023/2024‑SRC‑PR06",
+      "period": "2024–2025",
+      "amount": "KD 5,000 (≈ $16,200)",
+      "role": "Co‑Investigator",
+      "summary": "Experimental study on CFRP reinforcement for joints in natural‑fiber concrete pavements.",
+      "tags": [
+        "Grant",
+        "CFRP",
+        "NFRC",
+        "Pavements"
+      ]
+    },
+    {
+      "title": "Lamb Waves for SHM of Kuwait Infrastructure",
+      "sponsor": "KFAS — Grant #PR19‑15EC‑09",
+      "period": "2021–2023",
+      "amount": "KD 20,200 (≈ $66,600)",
+      "role": "Co‑Investigator",
+      "summary": "Guided‑wave sensing for damage detection and monitoring of critical assets.",
+      "tags": [
+        "Grant",
+        "KFAS",
+        "SHM",
+        "Guided Waves"
+      ]
+    },
+    {
+      "title": "FBG‑Based Real‑Time Spatial Measurements for Bridges",
+      "sponsor": "KFAS — Grant #PR20‑15EE‑01",
+      "period": "2020–2022",
+      "amount": "KD 5,500 (≈ $18,500)",
+      "role": "Co‑Investigator",
+      "summary": "Fiber‑optic sensing for dynamic and static bridge response using FBGs.",
+      "tags": [
+        "Grant",
+        "KFAS",
+        "FBG",
+        "Bridges"
+      ]
+    },
+    {
+      "title": "Sustainable Thermal‑Resistant Concrete Using PTF",
+      "sponsor": "KFAS — Grant #PN20‑35EV‑02",
+      "period": "2020–2022",
+      "amount": "KD 5,750 (≈ $19,000)",
+      "role": "Principal Investigator",
+      "summary": "Use of palm tree frond (PTF) fibers to enhance thermal resistance of concrete.",
+      "tags": [
+        "Grant",
+        "KFAS",
+        "PTF",
+        "Concrete",
+        "Sustainability"
+      ]
+    },
+    {
+      "title": "Innovative Material for Energy Storage & Thermal Resistance in Buildings",
+      "sponsor": "KFAS — Grant #CN20‑35‑EM‑04",
+      "period": "2020–2022",
+      "amount": "KD 4,250 (≈ $13,760)",
+      "role": "Co‑Investigator",
+      "summary": "Materials R&D for improved thermal performance and energy storage in buildings.",
+      "tags": [
+        "Grant",
+        "KFAS",
+        "Materials",
+        "Energy"
+      ]
+    },
+    {
+      "title": "Rutting Behavior of Asphalt Mixtures via ATD — FE Modeling",
+      "sponsor": "AU Seed Fund — Grant #IRC‑2017‑18‑COE‑CE‑PR03",
+      "period": "2017–2018",
+      "amount": "KD 1,500 (≈ $5,000)",
+      "role": "Co‑Investigator",
+      "summary": "Finite‑element analysis of asphalt rutting under accelerated testing.",
+      "tags": [
+        "Grant",
+        "AU",
+        "Pavements",
+        "FE"
+      ]
+    }
+  ],
+  "industrial": [
+    {
+      "title": "New Champlain Bridge Corridor Project",
+      "client": "SYSTRA / International Bridge Technologies (IBT)",
+      "location": "Montreal, Quebec, Canada",
+      "period": "Nov 2014 – 2016",
+      "summary": "East approach superstructure design; pier diaphragms for roadway & transit; Eurocode/CHBDC compliance; coordination and shop‑drawing oversight.",
+      "tags": [
+        "Bridge Design",
+        "CHBDC",
+        "Eurocode",
+        "Superstructure"
+      ]
+    },
+    {
+      "title": "Goethals Bridge Replacement",
+      "client": "SYSTRA / IBT for Port Authority of NY & NJ (independent assessment)",
+      "location": "New York – New Jersey, USA",
+      "period": "Jan 2014 – Oct 2014",
+      "summary": "Independent verification for four roadway structures and a railway bridge; linear/nonlinear, static/dynamic, P‑Δ, and influence line analyses; reporting and drawing validation.",
+      "tags": [
+        "Independent Check",
+        "Analysis",
+        "Bridge"
+      ]
+    },
+    {
+      "title": "Ohio River Cable‑Stay Bridge — Independent Design Validation",
+      "client": "SYSTRA / IBT",
+      "location": "Ohio, USA",
+      "period": "Apr 2013 – Dec 2013",
+      "summary": "Global modeling with soil‑pile interaction; evaluation of sub/superstructure components, anchorage assemblies, and composite deck systems.",
+      "tags": [
+        "Cable‑Stay",
+        "Independent Check",
+        "Soil‑Pile Interaction"
+      ]
+    },
+    {
+      "title": "Île d'Orléans Bridge — Seismic Capacity & Load Rating",
+      "client": "Ministère des Transports du Québec (MTQ) via DRSR / ÉTS",
+      "location": "Quebec City, QC, Canada",
+      "period": "Apr 2011 – Dec 2012",
+      "summary": "3D FE modeling with SSI for a century‑old cable‑stayed bridge; nonlinear seismic analyses; suspended structure load rating; development of Excel technical tools.",
+      "tags": [
+        "Seismic",
+        "SSI",
+        "Load Rating",
+        "Cable‑Stayed"
+      ]
+    }
+  ],
+  "graduate": []
+}

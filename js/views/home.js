@@ -13,21 +13,18 @@ export async function view(){
         <a class="btn" href="#/publications">Browse Publications</a>
         <a class="btn" href="${profile.cv_url}" download>Download CV</a>
       </div>
-      <div class="filterbar">
-        ${profile.social.map(s => `<a class="chip" target="_blank" href="${s.url}">${s.label}</a>`).join('')}
+      <ul class="small">
+        ${(profile.glance||[]).map(s=>`<li>${s}</li>`).join('')}
+      </ul>
+      <div class="filterbar" style="margin-top:.8rem">
+        ${(profile.social||[]).map(s => `<a class="chip" target="_blank" href="${s.url}">${s.label}</a>`).join('')}
       </div>
     </div>
     <div>
       <div class="card">
-        <h3>At a glance</h3>
-        <ul class="small">
-          <li>Consultation: Bridge Engineering, SSI and Seiesmic Desing</li>
-          <li>Research: SHM with FBGs and AI applicaitons in crack detection</li>
-          <li>Sustainable materials: Natural fibers in concrete</li>
-          <li>Teaching: Steel Structures, Concrete Structures, Analysis of Structures, Solid Mechanics</li>
-        </ul>
+        <h3>Contact</h3>
+        <p class="small"><a class="inline" href="mailto:${profile.email}">${profile.email}</a> · ${profile.location}</p>
       </div>
     </div>
-  </section>
-  `;
+  </section>`;
 }

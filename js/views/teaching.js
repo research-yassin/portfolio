@@ -6,13 +6,12 @@ export async function view(){
   <section class="section container">
     <h2>Teaching</h2>
     <div class="card-grid">
-      ${items.map(x => `
+      ${items.map(x=>`
         <article class="card">
           <h3>${x.course}</h3>
           <p class="small">${x.level}</p>
           <p>${x.role}</p>
-        </article>
-      `).join('')}
+        </article>`).join('')}
     </div>
   </section>`;
 }
