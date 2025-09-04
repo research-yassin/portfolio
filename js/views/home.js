@@ -24,8 +24,8 @@ export async function view(){
       <div class="card">
         <h3>Contact</h3>
         <p class="small"><a class="inline" href="mailto:${profile.email}">${profile.email}</a> ·
-        <p class="small"><a class="inline" href="mailto:${profile.phone}">${profile.phone1}</a> · ${profile.location1}</p>
-        <p class="small"><a class="inline" href="mailto:${profile.phone}">${profile.phone2}</a> · ${profile.location2}</p>
+        <p class="small"><a class="inline" href="mailto:${profile.phone1}">${profile.phone1}</a> · ${profile.location1}</p>
+        <p class="small"><a class="inline" href="mailto:${profile.phone2}">${profile.phone2}</a> · ${profile.location2}</p>
       </div>
     </div>
   </section>`;
