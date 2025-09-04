@@ -21,9 +21,10 @@ export async function view(){
       <div class="card">
         <h3>At a glance</h3>
         <ul class="small">
-          <li>Research: SHM with FBGs and AI crack detection</li>
-          <li>Sustainable materials: PTF‑concrete</li>
-          <li>Teaching: Steel, Statics, Strength, Analysis</li>
+          <li>Consultation: Bridge Engineering, SSI and Seiesmic Desing</li>
+          <li>Research: SHM with FBGs and AI applicaitons in crack detection</li>
+          <li>Sustainable materials: Natural fibers in concrete</li>
+          <li>Teaching: Steel Structures, Concrete Structures, Analysis of Structures, Solid Mechanics</li>
         </ul>
       </div>
     </div>
